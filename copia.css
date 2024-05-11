@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+body{
+    background: #e8e6e7;
+}
+header{
+    padding: 20px 70px;
+    background: #1d1d1f;
+}
+.navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navegador .logo{
+    width: 50px;
+}
+.navegador ul{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+.navegador ul li a{
+    color: #888;
+    font-weight: 600;
+    padding-bottom: 4px;
+    transition: all 0.5s ease-in-out;
+}
+.navegador ul li a:hover{
+    color: #ffff;
+    border-bottom: 1px solid#ffff;
+}
+ .navegador .iPhone{
+    color: #ffff;
+    border-bottom: 1px solid#ffff;
+}
+
+main section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 10rem;
+}
+.texto img{
+width: 15rem;
+margin-bottom: 3vh;
+}
+.texto h1{
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
+.texto p{
+    margin-bottom: 1.5rem;
+}
+.texto h2{
+    color: #9999;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+.texto .botao{
+    padding: 10px 25px;
+    background: #0071e3;
+    border-radius: 20px;
+    color: #ffff;
+    font-size: 1.5rem;
+    transition: all 0.5s;
+}
+.texto .botao:hover{
+    opacity: .85;
+}
+.texto .text h3{
+font-size: 1rem;
+color: #444444;
+margin-top: 2rem;
+margin-bottom: 2rem;
+}
+.texto .content{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.texto .content span{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 1px 1px #8888;
+    transition: all 0.5s;
+}
+.texto .content span:hover{
+    opacity: .80;
+}
+#black{
+background:#192028 ;
+}
+#white{
+background:#f7f2ee ;
+}
+#blue{
+    background:#225f7e ;
+}
+#green{
+    background:#445c42 ;
+}
+#pink{
+    background:#f8ddd6 ;
+}
+#red{
+    background:#ae0617 ;
+}
+.img{
+    transition: all 1s ease;
+    z-index: 100;
+}
+.img img{
+    width: 200px;
+    transform: rotate(-7deg);
+}
+.circle{
+    position: absolute;
+    top: 0%;
+    bottom: 20%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background: #383947;
+    clip-path: circle(350px at right 500px);
+}
